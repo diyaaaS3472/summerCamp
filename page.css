@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body {
+    margin: 10%;
+    background-color: rgb(52, 107, 126);
+}
+
+h1 {
+    color: rgb(244, 246, 252);
+    font-family: "Satisfy", system-ui;
+    font-size: 250%;
+    border: dotted;
+    border-color: azure;
+    border-width: 0.35cap;
+}
+h4 {
+    font-family: 'Times New Roman';
+    color: rgb(232, 238, 255);
+}
+img {
+    border-radius: 15%;
+  }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
